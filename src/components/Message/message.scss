@@ -1,0 +1,53 @@
+.message_wrapper{
+  display: flex;
+  gap: 8px;
+}
+
+.username{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #201F1E;
+}
+
+.message{
+  background: #F3F3F3;
+  border-radius: 4px;
+}
+
+.my_message{
+  background: rgba(64, 126, 201, 0.16);
+  border-radius: 4px;
+}
+
+.message_container{
+  padding: 8px 12px;
+  max-width: 548px;
+  position: relative;
+}
+
+.massage_text{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  padding-right: 55px;
+
+  color: #201F1E;
+}
+
+.edit_time{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 2px;
+  position: absolute;
+
+  right: 8px;
+  bottom: 6px;
+}

@@ -1,0 +1,33 @@
+.chat_wrapper{
+  width: 100%;
+}
+
+.chat_message_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.chat{
+  display: flex;
+  flex-direction: column;
+  // width: 100%;
+
+  row-gap: 12px;
+}
+
+.chat_message{
+  padding: 0 24px;
+}
+
+.your_message{
+  margin-left: auto;
+}
+
+.chat_message_wrapper{
+}
+
+.your_message{
+  justify-self: flex-end;
+}

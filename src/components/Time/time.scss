@@ -1,0 +1,16 @@
+.time_wrapper{
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.date{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 9px;
+  color: #605E5C;
+}

@@ -1,0 +1,22 @@
+.new_message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  padding: 4px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  line-height: 16px;
+
+  color: #407EC9;
+
+  background: rgba(64, 126, 201, 0.08);
+}
